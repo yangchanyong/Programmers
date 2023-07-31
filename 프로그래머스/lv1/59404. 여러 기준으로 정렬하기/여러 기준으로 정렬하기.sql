@@ -1,0 +1,4 @@
+-- 코드를 입력하세요 / 아이디, 이름, 보호시작일을 이름순으로 조회
+SELECT ANIMAL_ID, NAME, DATETIME 
+FROM ANIMAL_INS 
+ORDER BY NAME ASC, DATETIME DESC;
